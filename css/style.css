@@ -1,0 +1,54 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato",sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.img1{
+  background-image: url(https://images.pexels.com/photos/975771/pexels-photo-975771.jpeg?cs=srgb&dl=pexels-david-ria%C3%B1o-cort%C3%A9s-975771.jpg&fm=jpg);
+  min-height: 100%;
+}
+.img2{
+  background-image: url(https://cdn.create.vista.com/api/media/small/225179070/stock-photo-asian-rainforest-jungle-august);
+  min-height: 400px;
+}
+.img3{
+  background-image: url(https://www.mercedes-benz.com/en/_jcr_content/root/stage/parsys/stageitem/image/MQ7-0-image-20220916094016/mercedes-benz-showcase-stage-3400x1440-07-2022.jpeg);
+  min-height: 400px;
+}
+
+.img2,.img3,.img1{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.phead{
+  background-color: #666;
+  color: #ddd;
+}
+.section1{
+  text-align: center;
+  padding: 50px 20px;
+  background: #666;
+}
+.section-light{
+  background: #f4f4f4;
+  color: #666;
+}
+.section-dark{
+  color: #ddd;
+}
